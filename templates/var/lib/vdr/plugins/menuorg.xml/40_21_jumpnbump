@@ -1,0 +1,1 @@
+        <command name=<?cs call:quote(_("jumpnbump")) ?> execute="/usr/share/vdr/menuorg-appswitcher standalone=yes app=jumpnbump &amp;> /dev/null " />

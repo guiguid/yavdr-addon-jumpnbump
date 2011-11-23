@@ -1,0 +1,12 @@
+Source: yavdr-addon-jumpnbump
+Section: misc
+Priority: optional
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Standards-Version: 3.8.4
+Build-Depends: debhelper (>= 7), cdbs
+
+Package: yavdr-addon-jumpnbump
+Architecture: all
+Depends: ${yavdr-startup},${misc:Depends}, yavdr-utils, jumpnbump
+Description: yavdr-addon-jumpnbump
+ yavdr-addon-jumpnbump
